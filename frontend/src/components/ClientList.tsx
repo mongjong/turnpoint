@@ -17,7 +17,7 @@ const ClientList = () => {
             <h1>Clients</h1>
             <div>
                 <Link to="/client/new">
-                    <button>Add New Client</button>
+                    <button className="secondary">Add New Client</button>
                 </Link>
             </div>
 
