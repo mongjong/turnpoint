@@ -3,7 +3,7 @@ import db from '../../db/database';
 type ClientType = {
     id: number;
     name: string;
-    date_of_birth: Date;
+    date_of_birth: string;
     funding: string;
     main_language: string;
     secondary_language: string;

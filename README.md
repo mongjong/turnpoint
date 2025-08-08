@@ -26,3 +26,10 @@ Funding source is left as an array of strings. In the future, it would not be di
 ### Languages
 It is assumed that there is a set of languages for the user to select from. This will prevent typing errors or other differences, such as capitalised or spelling mistakes. This also can be improved upon in future iterations depending on requirements.
 
+## Other Important Stuff
+### Linting
+ESLint is installed and used to keep code consistent
+### Test Units
+Some test units for front and backend functionality is included but can be expanded. Test can be run in the frontend and the backend folders by running `npm test`.
+### Further Improvements
+I could keep writing and improving this project for days. I had to call it at some point!

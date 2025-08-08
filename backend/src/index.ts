@@ -23,3 +23,5 @@ app.use((err: ErrorType, _req: Request, res: Response) => {
 app.listen(port, () => {
   console.log(`API listening at http://localhost:${port}`);
 });
+
+export default app;
