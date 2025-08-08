@@ -3,6 +3,8 @@
 This project fulfils a specific coding challenge.
 
 ## Requirements
+### NPM
+* You will need npm installed: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 ### MySQL
 * Ensure MySQL is installed
 * Create a database called `challenge`
