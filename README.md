@@ -25,6 +25,8 @@ In future, design could be improved to match the user's styling document. Forms 
 Funding source is left as an array of strings. In the future, it would not be difficult to expand this to its own table with a foreign key constraint on the client table, i.e. client.fundingId = funding.id. However, with funding defined as just an array of strings and no further information required, it has been designed to keep things simple and reduce database query join.
 ### Languages
 It is assumed that there is a set of languages for the user to select from. This will prevent typing errors or other differences, such as capitalised or spelling mistakes. This also can be improved upon in future iterations depending on requirements.
+### User permissions / security
+It is assumed no user permissions or roles are required and no security is implemented. But this should be a consideration in future iterations. Validation of user input both backend and frontend should also be looked at together with logging and potentially API rate limiting.
 
 ## Other Important Stuff
 ### Linting
